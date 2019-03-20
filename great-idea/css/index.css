@@ -64,3 +64,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	margin: 0 auto;
+	width: 876px;
+  }
+  .navigation {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-around;
+  }
+  .navigation a{
+	text-decoration: none;
+	padding: 16px;
+	color: grey;
+  }
+  .logo {
+	  display: flex;
+	  justify-content: end;
+	  padding: 7px;
+  }
+  .header {
+	  display: flex;
+	  flex-direction: row;
+	  justify-items: space-between;
+  }
+  .header h1{
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
+	  font-size: 50px;
+	  padding: 124px;
+	  flex-wrap: wrap;
+  }
+  .headerImage {
+	  display: flex;
+	  padding: 20px;
+  }
+  .buttonHeader{
+	  text-decoration: none;
+	  font-size: 20px;
+	  border: 1px solid black;
+	  padding: 10px;
+  }
+  .divider{
+	  border-top:2px solid rgb(161, 161, 161);
+	  padding:10px 0px 10px 0px;
+  }
+  .content{
+	  display:flex;
+	  flex-direction: row;
+	  justify-content: space-evenly;
+  }
+  
+  .topContent1 {
+	  padding: 30px;
+  }
+  .topContent2 {
+	  padding: 33px;
+  }
+  .content2{
+	display:flex;
+	flex-direction: row;
+	justify-items: space-evenly;
+}
+  .bottomContent1{
+	  padding: 30px;
+  }
+  .bottomContent2{
+	  padding: 30px;
+  }
+  .bottomContent3{
+	  padding: 30px;
+  }
+  .contact {
+	  padding-top:50px;
+  }
+  .contact p{
+	  padding:10px 0px 10px 0px;
+  }
+  .copyright p{
+	  display:flex;
+	  flex-direction: row;
+	  justify-content: center;
+	  padding: 50px 0px 50px 0px;
+  }
